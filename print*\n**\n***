@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int r,c,k;
+  r=5;
+  for(c=1;c<=r;c++)
+  {
+    for(k=1;k<=c;k++)
+    {
+      print("*");
+      print("\n");
+     }
+  }
+ }
